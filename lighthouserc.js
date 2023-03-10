@@ -7,7 +7,7 @@ module.exports = {
         settings: {
             chromeFlags: "--no-sandbox --headless"
         },
-        numberOfRuns: 4,
+        numberOfRuns: 3,
           },
       upload: {
         target: 'lhci',
