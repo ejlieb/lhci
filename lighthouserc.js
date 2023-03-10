@@ -12,6 +12,7 @@ module.exports = {
       upload: {
         target: 'lhci',
         token:"tmaxadmin",
+        serverBaseUrl:"http://172.19.0.2/16:9001"
         // outputDir: './lhci_reports',
         // reportFilenamePattern: '%%PATHNAME%%-%%DATETIME%%-report.%%EXTENSION%%',
       },
