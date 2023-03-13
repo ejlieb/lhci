@@ -12,7 +12,7 @@ module.exports = {
       upload: {
         target: 'lhci',
         token:"489fea8f-34f0-411c-8634-ef252884b8f1",
-        serverBaseUrl:"http://172.19.0.2:9001"
+        serverBaseUrl:"http://172.19.0.3:9001"
         // outputDir: './lhci_reports',
         // reportFilenamePattern: '%%PATHNAME%%-%%DATETIME%%-report.%%EXTENSION%%',
       },
