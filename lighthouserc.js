@@ -3,11 +3,11 @@ module.exports = {
       collect: {
         // staticDistDir: "./build",
         url: ["http://localhost:3000/", "http://localhost:3000/second" ],
-        startServerCommand: "npm run start", // 서버를 키는 명령어를 통해서도 실행 가능
+        startServerCommand: "npx serve -s build", // 서버를 키는 명령어를 통해서도 실행 가능
         settings: {
             chromeFlags: "--no-sandbox --headless"
         },
-        numberOfRuns: 2,
+        numberOfRuns: 1,
           },
       upload: {
         target: 'lhci',
